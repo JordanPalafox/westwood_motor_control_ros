@@ -33,7 +33,7 @@ class WestwoodMotorServer(Node):
         self.get_logger().info('Westwood Motor Server started')
         
         # Parámetros configurables - por defecto busca en el puerto USB0
-        self.declare_parameter('port', '/dev/ttyUSB0')
+        self.declare_parameter('port', '/dev/ttyUSB1')
         self.declare_parameter('baudrate', '8000000')
         self.declare_parameter('motor_ids', [1])
         self.declare_parameter('debug', False)
@@ -67,7 +67,7 @@ class WestwoodMotorServer(Node):
             self.get_logger().info('Servicio de control multi-motor con arrays registrado correctamente')
         except Exception as e:
             self.get_logger().error(f'Error al registrar servicio multi-motor con arrays: {str(e)}')
-
+        
     # Función principal para manejar IDs de motores y sus posiciones objetivo
     def handle_motor_ids_and_target(self, request, response):
         """Callback para controlar múltiples motores con posiciones objetivo individuales"""
