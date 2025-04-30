@@ -1,0 +1,21 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from westwood_motor_interfaces/srv/SetMotorIdAndTarget.srv
+// generated code does not contain a copyright notice
+
+
+module westwood_motor_interfaces {
+  module srv {
+    struct SetMotorIdAndTarget_Request {
+      sequence<int32> motor_ids;
+
+      sequence<float> target_positions;
+    };
+    struct SetMotorIdAndTarget_Response {
+      boolean success;
+
+      string message;
+
+      sequence<float> previous_positions;
+    };
+  };
+};

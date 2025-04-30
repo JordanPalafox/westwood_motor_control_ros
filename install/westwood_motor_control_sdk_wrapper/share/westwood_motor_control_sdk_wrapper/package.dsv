@@ -1,0 +1,11 @@
+source;share/westwood_motor_control_sdk_wrapper/hook/cmake_prefix_path.ps1
+source;share/westwood_motor_control_sdk_wrapper/hook/cmake_prefix_path.dsv
+source;share/westwood_motor_control_sdk_wrapper/hook/cmake_prefix_path.sh
+source;share/westwood_motor_control_sdk_wrapper/hook/pythonpath.ps1
+source;share/westwood_motor_control_sdk_wrapper/hook/pythonpath.dsv
+source;share/westwood_motor_control_sdk_wrapper/hook/pythonpath.sh
+source;share/westwood_motor_control_sdk_wrapper/local_setup.bash
+source;share/westwood_motor_control_sdk_wrapper/local_setup.dsv
+source;share/westwood_motor_control_sdk_wrapper/local_setup.ps1
+source;share/westwood_motor_control_sdk_wrapper/local_setup.sh
+source;share/westwood_motor_control_sdk_wrapper/local_setup.zsh
