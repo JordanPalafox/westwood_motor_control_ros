@@ -1,4 +1,1 @@
-srv/SetMotorIdAndTarget.idl
-srv/SetMotorIdAndTarget.srv
-srv/SetMotorIdAndTarget_Request.msg
-srv/SetMotorIdAndTarget_Response.msg
+/home/jordan/westwood_motor_control_ros/build/westwood_motor_interfaces/ament_cmake_index/share/ament_index/resource_index/rosidl_interfaces/westwood_motor_interfaces

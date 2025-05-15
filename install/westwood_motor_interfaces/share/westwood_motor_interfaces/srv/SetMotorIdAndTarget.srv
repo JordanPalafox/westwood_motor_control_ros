@@ -1,6 +1,1 @@
-int32[] motor_ids
-float32[] target_positions
----
-bool success
-string message
-float32[] previous_positions
+/home/jordan/westwood_motor_control_ros/westwood_motor_interfaces/srv/SetMotorIdAndTarget.srv

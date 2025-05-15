@@ -1,2 +1,1 @@
-int32[] motor_ids
-float32[] target_positions
+/home/jordan/westwood_motor_control_ros/build/westwood_motor_interfaces/rosidl_cmake/srv/SetMotorIdAndTarget_Request.msg

@@ -1,4 +1,1 @@
-
-bool success
-string message
-float32[] previous_positions
+/home/jordan/westwood_motor_control_ros/build/westwood_motor_interfaces/rosidl_cmake/srv/SetMotorIdAndTarget_Response.msg
