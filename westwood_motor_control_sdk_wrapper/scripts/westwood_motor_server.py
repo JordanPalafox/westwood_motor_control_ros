@@ -33,8 +33,8 @@ class WestwoodMotorServer(Node):
         self.get_logger().info('Westwood Motor Server started')
         
         # Parámetros configurables - por defecto busca en el puerto USB0
-        self.declare_parameter('port', '/dev/ttyUSB1')
-        self.declare_parameter('baudrate', '8000000')
+        self.declare_parameter('port', '/dev/ttyUSB0')
+        self.declare_parameter('baudrate', 8000000)
         self.declare_parameter('motor_ids', [1])
         self.declare_parameter('debug', False)
         
